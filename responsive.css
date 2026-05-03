@@ -1,4 +1,4 @@
-
+/* Tablet styles */
 @media (max-width: 768px) {
   header h1 {
     font-size: 2.5rem;
@@ -40,6 +40,14 @@
 
   .sweet-item h3 {
     font-size: 1.3rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #gallery h2 {
+    font-size: 1.8rem;
   }
 }
 
@@ -97,6 +105,18 @@
 
   .sweet-item p {
     font-size: 0.9rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item img {
+    height: 200px;
+  }
+
+  #gallery h2 {
+    font-size: 1.5rem;
   }
 
   footer {
