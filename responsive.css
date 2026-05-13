@@ -48,6 +48,10 @@
   #gallery h2 {
     font-size: 1.8rem;
   }
+
+  #why-choose-us ul {
+    padding-left: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -120,5 +124,9 @@
 
   footer {
     padding: 0.8rem;
+  }
+
+  #contact-us form {
+    padding: 0 1rem;
   }
 }
