@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
   header h1 {
     font-size: 2.8rem;
   }
@@ -52,9 +52,42 @@
   #why-choose-us ul {
     padding-left: 1rem;
   }
-}
+
 
 @media (max-width: 480px) {
+  .navMenu {
+    justify-content: center;
+    gap: 1.6rem;
+    position: absolute;
+    animation: NavbarSlider 0.5s ease-out;
+    left: 0;
+    right: 0;
+    top: 6.5rem;
+    background-color: #071b75;
+    padding: 1.2rem;
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    font-size: 3.2rem;
+    cursor: pointer;
+  }
+  @keyframes NavbarSlider {
+  0% {
+
+    top: 0;
+  }
+
+
+  100% {
+    top: 100%;
+  }
+}
+
+
+  .navMenu.active {
+    display: flex;
+  }
   header {
     padding: 1.5rem 1rem;
   }
